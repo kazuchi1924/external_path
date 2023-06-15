@@ -6,8 +6,7 @@ https://pub.dev/packages/external_path
 
 ## Features
 
-`ExternalPath.getExternalStoragePublicDirectory()` needs Public Directory Type argument
-Below given table contains the types of argument you can pass to `getExternalStoragePublicDirectory()` function
+`ExternalPath.getExternalStoragePublicDirectory()` Public Directory Type argument. table contains the types of args `getExternalStoragePublicDirectory()` function
 
 | ExternalPath                         |
 | ------------------------------------ |
@@ -42,7 +41,7 @@ Package has two functions
     var path = await ExternalPath.getExternalStorageDirectories();
     print(path);  // [/storage/emulated/0, /storage/B3AE-4D28]
 
-    // please note: B3AE-4D28 is external storage (SD card) folder name it can be any.
+    // B3AE-4D28 is external storage (SD card) folder name it can be any.
   }
 
 
